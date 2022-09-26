@@ -41,8 +41,131 @@ section {
     display: inline;
     margin: 2em;
     padding: 1em;
+    background-color: rgb(253, 223, 244);
 }
 
 aside {
     margin: 3em;
+}
+.btnEU {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btnFlag {
+    padding-top: 1.5em;
+    padding-top: 0;
+    width: 120px;
+    height: 70px;
+    font-weight: bold;
+    color: rgb(143, 35, 107);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#Porto {
+    background-image: url(../flags/Porto.png);
+    background-size: cover;
+}
+#Spain {
+    background-image: url(../flags/Spain.png);
+    background-size: contain;
+}
+#Germ {
+    background-image: url(../flags/Germania.png);
+    background-size: contain;
+}
+#Fran {
+    background-image: url(../flags/France.png);
+    background-size: cover;
+}
+#Ita {
+    background-image: url(../flags/Italy.png);
+    background-size: cover;
+}
+#uk {
+    background-image: url(../flags/uk.png);
+    background-size: contain;
+}
+#irel {
+    background-image: url(../flags/irel.png);
+    background-size: cover;
+}
+#pol {
+    background-image: url(../flags/poland.png);
+    background-size: cover;
+}
+#Ucr {
+    background-image: url(../flags/ukraine.png);
+    background-size: cover;
+}
+#PaeB {
+    background-image: url(../flags/paeBas.png);
+    background-size: contain;
+}
+#Sviz {
+    background-image: url(../flags/sviz.png);
+    background-size: cover;
+    width: 80px;
+}
+#Greece {
+    background-image: url(../flags/greece.png);
+    background-size: cover;
+}
+#Aus {
+    background-image: url(../flags/austr.png);
+    background-size: contain;
+}
+#svez {
+    background-image: url(../flags/svezia.png);
+    background-size: contain;
+}
+#belg {
+    background-image: url(../flags/belg.png);
+    background-size: cover;
+}
+#Dan {
+    background-image: url(../flags/dan.png);
+    background-size: contain;
+}
+#Nor {
+    background-image: url(../flags/nor.png);
+    background-size: contain;
+}
+#croa {
+    background-image: url(../flags/cro.png);
+    background-size: cover;
+}
+#Fin {
+    background-image: url(../flags/fin.png);
+    background-size: cover;
+}
+#rom {
+    background-image: url(../flags/rom.png);
+    background-size: cover;
+}
+#ung {
+    background-image: url(../flags/ungh.png);
+    background-size: cover;
+}
+#bul {
+    background-image: url(../flags/bulg.png);
+    background-size: cover;
+}
+#Alb {
+    background-image: url(../flags/alb.png);
+    background-size: cover;
+}
+#Isl {
+    background-image: url(../flags/isl.png);
+    background-size: contain;
+}
+#EUtime {
+    font-weight: bold;
+    border: 2px solid #993398;
+    margin: 2em 23em;
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(253, 223, 244);
 }

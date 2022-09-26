@@ -28,8 +28,35 @@
 
     <aside>
       <h2><i class="fa-solid fa-font-awesome"></i> Clicca su una bandiera europea per conoscere il suo fuso orario</h2>
-      <button onclick="btnSpain" id="spagna">Spagna</button>
-      <p id="westEUtime"></p>
+      <div class="btnEU">
+        <button onclick="btnFlag('Europe/Lisbon')" id="Porto" class="btnFlag">Portogallo</button>
+        <button onclick="btnFlag('Europe/Madrid')" id="Spain" class="btnFlag">Spagna</button>
+        <button onclick="btnFlag('Europe/Berlin')" id="Germ" class="btnFlag">Germania</button>
+        <button onclick="btnFlag('Europe/Paris')" id="Fran" class="btnFlag">Francia</button>
+        <button onclick="btnFlag('Europe/Rome')" id="Ita" class="btnFlag">Italia</button>
+        <button onclick="btnFlag('Europe/London')" id="uk" class="btnFlag">Regno Unito</button>
+        <button onclick="btnFlag('Europe/Dublin')" id="irel" class="btnFlag">Irlanda</button>
+        <button onclick="btnFlag('Europe/Warsaw')" id="pol" class="btnFlag">Polonia</button>
+        <button onclick="btnFlag('Europe/Kiev')" id="Ucr" class="btnFlag">Ucraina</button>
+        <button onclick="btnFlag('Europe/Amsterdam')" id="PaeB" class="btnFlag">Paesi Bassi</button>
+        <button onclick="btnFlag('Europe/Bern')" id="Sviz" class="btnFlag">Svizzera</button>
+        <button onclick="btnFlag('Europe/Athens')" id="Greece" class="btnFlag">Grecia</button>
+        <button onclick="btnFlag('Europe/Vienna')" id="Aus" class="btnFlag">Austria</button>
+        <button onclick="btnFlag('Europe/Stockholm')" id="svez" class="btnFlag">Svezia</button>
+        <button onclick="btnFlag('Europe/Brussels')" id="belg" class="btnFlag">Belgio</button>
+        <button onclick="btnFlag('Europe/Copenaghen')" id="Dan" class="btnFlag">Danimarca</button>
+        <button onclick="btnFlag('Europe/Oslo')" id="Nor" class="btnFlag">Norvegia</button>
+        <button onclick="btnFlag('Europe/Zagreb')" id="croa" class="btnFlag">Croazia</button>
+        <button onclick="btnFlag('Europe/Helsinki')" id="Fin" class="btnFlag">Finlandia</button>
+        <button onclick="btnFlag('Europe/Bucharest')" id="rom" class="btnFlag">Romania</button>
+        <button onclick="btnFlag('Europe/Budapest')" id="ung" class="btnFlag">Ungheria</button>
+        <button onclick="btnFlag('Europe/Sofia')" id="bul" class="btnFlag">Bulgaria</button>
+        <button onclick="btnFlag('Europe/Tirana')" id="Alb" class="btnFlag">Albania</button>
+        <button onclick="btnFlag('Europe/Reykjavík')" id="Isl" class="btnFlag">Islanda</button>
+      </div>
+      <div>
+        <p id="EUtime"></p>
+      </div>
     </aside>
 
     <script src="./js/script.js"></script>
